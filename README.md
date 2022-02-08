@@ -22,5 +22,7 @@
 
 # สรุปการทดลองบน ESP-01 จำนวน 6 การทดลอง
 ## run example 1
-เราจะเขียนโปรแกรมเข้าไปใน microcontroller เมื่อนำโปรแรมเข้าไปแล้ว จะมี 2 ส่วนหลักๆคือ setup และ loop โดย loop เราจะตั้งค่าให้หน่วงทุกๆ 1 วินาที โดยจะใช้ platformio และ upload program ไปใน microcontroller ต้องกดปุ้มที่ตัวเครื่องด้วย และรอโหลด เมื่อโหลดเสร็จแล้วโปรแกรมจะพร้อมรัน ให้เราใช้คำสั่ง pio device moniter ตัวแปร count จะนับเพิ่มทีละ 1 ทุก 1 วินาที และถ้าเรากดปุ้ม reset บน microcontroller ก็จะ reset และเริ่มนับ 1 ใหม่ 
+เราจะเขียนโปรแกรมเข้าไปใน microcontroller เมื่อนำโปรแรมเข้าไปแล้ว จะมี 2 ส่วนหลักๆคือ setup และ loop โดย loop เราจะตั้งค่าให้หน่วงทุกๆ 1 วินาที โดยจะใช้ platformio และ upload program ไปใน microcontroller ต้องกดปุ้มที่ตัวเครื่องด้วย และรอโหลด เมื่อโหลดเสร็จแล้วโปรแกรมจะพร้อมรัน ให้เราใช้คำสั่ง pio device monitor ตัวแปร count จะนับเพิ่มทีละ 1 ทุก 1 วินาที และถ้าเรากดปุ้ม reset บน microcontroller ก็จะ reset และเริ่มนับ 1 ใหม่ 
 ## run example 2 
+หลังจากเสียบแล้ว upload preogram แล้ว จะมี2ส่วนคือ ส่วน setup wifi และส่วน loop และเมื่อ upload ครบ 100 % แล้วใช่คำสั่ง pio device monitor แล้วก็จะขึ้น wifi ที่เจอ
+## run example 3
