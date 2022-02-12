@@ -12,14 +12,14 @@
 - หน่วยความจำ 4 MB
 - ลิ้งค์ https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html#board-espressif32-esp-wrover-kit
 
-## intel_mcs51
-- ราคา 250-300 บาท
-- ความเร็ว  22 MHz
-- หน่วยความจำ 4 KB
-- ลิ้งค์ https://docs.platformio.org/en/latest/boards/intel_mcs51/n79e8432.html#board-intel-mcs51-n79e8432
+## AVR
+- ราคา 1190 บาท
+- ความเร็ว  2400 ถึง 115200 Hz
+- หน่วยความจำ 512 BYTE แบบ EEPROM
+- ลิ้งค์ http://www.ett.co.th/product/03A06.html
 
-## microchippic32
-- ราคา 181.5 บาท
-- ความเร็ว  40 MHz
-- หน่วยความจำ 32k-512k
-- ลิ้งค์ https://th.element14.com/microchip/pic32mx250f128b-i-ss/mcu-32bit-pic32-40mhz-ssop-28/dp/2097774
+## ESP8266
+- ราคา 103 บาท
+- ความเร็ว  127 MHz
+- หน่วยความจำ 4 MB - 16 MB
+- ลิ้งค์ https://www.artronshop.co.th/article/21/esp8266-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7%E0%B8%A1%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C
