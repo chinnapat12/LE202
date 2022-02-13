@@ -24,13 +24,13 @@
 ## run example 1
 เราจะเขียนโปรแกรมเข้าไปใน microcontroller เมื่อนำโปรแกรมเข้าไปแล้ว จะมี 2 ส่วนหลักๆคือ setup และ loop โดย loop เราจะตั้งค่าให้หน่วงทุกๆ 1 วินาที โดยจะใช้ platformio และ upload program ไปใน microcontroller ต้องกดปุ้มที่ตัวเครื่องด้วย และรอโหลด เมื่อโหลดเสร็จแล้วโปรแกรมจะพร้อมรัน ให้เราใช้คำสั่ง pio device monitor ตัวแปร count จะนับเพิ่มทีละ 1 ทุก 1 วินาที และถ้าเรากดปุ้ม reset บน microcontroller ก็จะ reset และเริ่มนับ 1 ใหม่ 
 ## run example 2 
-หลังจากเสียบแล้ว upload preogram แล้ว จะมี2ส่วนคือ ส่วน setup wifi และส่วน loop และเมื่อ upload ครบ 100 % แล้วใช่คำสั่ง pio device monitor แล้วก็จะขึ้น wifi ที่เจอ
+หลังจากเสียบแล้ว upload preogram แล้ว จะมี2ส่วนคือ ส่วน setup wifi และส่วน loop และเมื่อ upload ครบ 100 % แล้วใช้คำสั่ง pio device monitor แล้วก็จะขึ้น wifi ที่เจอ
 ## run example 3
 มี output port และ input port เมื่อเขียนโปรแกรมใน microcontroller แล้วนำไปเสียบกับ USB และจะนำ io port ที่มี port 0 กับ port 1 มาใช้งานด้วย จะเสียบผ่าน adapter และจะทำให้ output ออกมาที่ port 0 และจะวน loop 0.5 วินาที แล้วเพิ่มจำนวนรอบคี่ให้เป็น on และคู่เป็น off แล้ว LED เมื่อเปล่งแสงออกมาจะเป็น on
 ## run relay 
 จะนำ microcontroller ที่เขียนโปรแกรมไว้แล้ว เสียบเข้ากับ relay เพื่อเปิดและปิดสวิตซ์ จะควบคุมการเปิดปิดทุกๆ 0.5 วินาที
 ## run example 4
-การนำสัญญาณ input จากภายนอกเข้ามาใน microcontroller โดนจะ set ให้ port 0 เป็น input และ port 2 เป็น output โปรแกรมจะวนลูปและอ่านข้อมูลจาก port 0 อ่านเป็นสัญญาณ digital ถ้าเป็น 1 ให้ส่งไปยัง port 2 ทำให้ไฟดับ เพราะฉนั้นสัญญาณ input จาก port 0 จะเป็นตัวควบคุมให้ไฟเปิดหรือปิด
+การนำสัญญาณ input จากภายนอกเข้ามาใน microcontroller โดยจะ set ให้ port 0 เป็น input และ port 2 เป็น output โปรแกรมจะวนลูปและอ่านข้อมูลจาก port 0 อ่านเป็นสัญญาณ digital ถ้าเป็น 1 ให้ส่งไปยัง port 2 ทำให้ไฟดับ เพราะฉนั้นสัญญาณ input จาก port 0 จะเป็นตัวควบคุมให้ไฟเปิดหรือปิด
 ## run wifi
 การสร้าง web server ผ่าน wifi เราต้องใส่ชื่อ wifi กับ password ลงไป หลังจากนั้นโปรแกรมก้จะมี 2 ส่วนคือ setup และ loop การ setup จะเป็นการ connect กับ wifi ที่เลือกไว้ หลังจากนั้นก็ setup web server และเราจะ upload โปรแกรมขึ้นไปบน microcontroller โดยการเสียบไปที่ USB เราจะใช้ wed browser ในการทดสอบโปรแกรม
 ## run wifi AP
