@@ -33,4 +33,4 @@
 - ความเร็ว 100 MHz
 - หน่วยความจำ 521 KB
 - ลิ้ง https://www.arduitronics.com/product/2723/wifimcu-development-board-with-emw3165
-- port usc type c
+- port usb type c
